@@ -48,8 +48,8 @@ const Header = (props) => {
             </clipPath>
           </defs>
         </svg>
-        <div className={style.photo}>
-          <img src={require("../../assets/images/avatar.jpg")} alt="avatar"/>
+        <div className={style.border}>
+          <img className={style.photo} src={require("../../assets/images/avatar.jpg")} alt="avatar"/>
         </div>
       </div>
     </div>

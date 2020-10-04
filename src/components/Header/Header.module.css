@@ -11,9 +11,16 @@
 .block svg {
   fill: red;
 }
-.photo{
-  height: 45px;
-  width: 45px;
+.border{
+  display: flex;
+  align-items: center;
+  height: 49px;
+  width: 49px;
+  border: 1px solid white;
   border-radius: 50%;
-  overflow: hidden;
+}
+.photo{
+  margin: 0 auto;
+  height: 45px;
+  border-radius: 50%;
 }

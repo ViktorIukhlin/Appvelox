@@ -1,3 +1,19 @@
 .block{
-  background-color: gold;
+  display: flex;
+  align-items: center;
+  background-color: #50CAFF;
+  height: 55px;
+}
+.block h2{
+  font-size: 28px;
+  line-height: 33px;
+}
+.block svg {
+  fill: red;
+}
+.photo{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  overflow: hidden;
 }

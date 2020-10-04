@@ -1,0 +1,46 @@
+.nav {
+  height: 100%;
+  background-color: #003B72;
+}
+.logotype{
+  display: flex;
+  align-items: center;
+  height: 55px;
+  color: #fff;
+  padding-left: 20px;
+}
+.marker{
+  display: none;
+  width: 3px;
+  height: 100%;
+  background-color: #7761FF;
+}
+.link{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: 46px;
+  margin-bottom: 10px;
+}
+.link svg{
+  margin-left: 20px;
+  margin-right: 14px; 
+}
+.link:hover{
+  background-color: #FCFCFC ;
+  color: #7761FF;
+}
+.link:hover svg{
+  fill: #7761FF;;
+}
+.active{
+  background-color: #FCFCFC ;
+  color: #7761FF;
+}
+.active svg{
+  fill: #7761FF;
+  margin-left: 17px;
+}
+.active .marker{
+  display: block;
+}

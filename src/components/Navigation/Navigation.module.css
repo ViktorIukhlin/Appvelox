@@ -44,3 +44,24 @@
 .active .marker{
   display: block;
 }
+/*****End Nav*****/
+.form{
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  height: 40px;
+  color: #fff;
+  background-color: #7761FF;
+  border-radius: 5px;
+}
+.form h2{
+ margin: 0 auto;
+ font-weight: 500;
+}
+
+.logo{
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+  height: 20px;
+}

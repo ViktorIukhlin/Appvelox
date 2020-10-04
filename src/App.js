@@ -1,12 +1,9 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, HashRouter } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
-
-
 
 const App = (props) => {
   return (

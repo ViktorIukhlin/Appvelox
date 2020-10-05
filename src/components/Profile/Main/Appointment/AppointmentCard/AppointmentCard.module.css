@@ -1,0 +1,68 @@
+.container{
+  width: 475px;
+  height: 174px;
+  margin-left: 20px;
+  margin-top: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px #EBE7FF;
+  border-radius: 5px;
+}
+.topBlock{
+  max-width: 300px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.topBlock h3{
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.topBlock p{
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bottomBlock{
+  display: flex;
+  margin: 10px 20px 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.profileBox{
+  display: flex;
+}
+.photo{
+  height: 60px;
+  border-radius: 50%;
+}
+.box{
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxName{
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.boxSpecialty{
+  color: #EBE7FF;
+  font-size: 14px;
+  line-height: 17px;
+}
+.bottomBlock button{
+  background: #7761FF;
+  width: 98px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}

@@ -1,5 +1,6 @@
 .content{
   background-color:#FCFCFC;
+  margin-top: 35px;
 }
 .content h2{
   margin-left: 40px;
@@ -13,7 +14,7 @@
 }
 /* BLOCK ACTIVE START */
 .box_active{
-  margin: 15px 16px 15px 20px ;
+  margin: 15px -4px 0 20px ;
   max-height: 183px;
   max-width: 540px;
   background: #FFFFFF;
@@ -64,7 +65,7 @@
 
 /* BLOCK START */
 .box{
-  margin: 15px 16px 15px 20px ;
+  margin: 15px -4px 0 20px ;
   max-height: 183px;
   max-width: 540px;
   background: #FFFFFF;

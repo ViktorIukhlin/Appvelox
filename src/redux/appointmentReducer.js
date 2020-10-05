@@ -4,7 +4,7 @@ let initialState = {
         date: 'Понедельник 15.06.20', 
         time: '15:30', 
         hospitalName: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
-        photo: '',
+        photo: 'malushko.jpg',
         name: 'Малушко Т.Н.',
         specialty: 'Хирургия'
       },
@@ -12,7 +12,7 @@ let initialState = {
         date: 'Понедельник 15.06.20', 
         time: '18:30', 
         hospitalName: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
-        photo: '',
+        photo: 'harkov.jpg',
         name: 'Харьков В. С.',
         specialty: 'Хирургия'
       },
@@ -20,7 +20,7 @@ let initialState = {
         date: 'Понедельник 15.06.20', 
         time: '15:30', 
         hospitalName: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
-        photo: '',
+        photo: 'malushko.jpg',
         name: 'Малушко Т.Н.',
         specialty: 'Терапевтическое отделение'
       },
@@ -28,7 +28,7 @@ let initialState = {
         date: 'Понедельник 15.06.20', 
         time: '15:30', 
         hospitalName: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
-        photo: '',
+        photo: 'harkov.jpg',
         name: 'Харьков В. С.',
         specialty: 'Хирургия'
       },
@@ -36,7 +36,7 @@ let initialState = {
         date: 'Понедельник 15.06.20', 
         time: '15:30', 
         hospitalName: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
-        photo: '',
+        photo: 'malushko.jpg',
         name: 'Малушко Т.Н.',
         specialty: 'Терапевтическое отделение'
       }

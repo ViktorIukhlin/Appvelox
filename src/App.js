@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, HashRouter } from 'react-router-dom';
+import { Route, HashRouter, Redirect } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
@@ -15,7 +15,9 @@ const App = (props) => {
         <div className='content'>
           <Header />
           <div>
-            <Route path='/profile' render={ () => <Profile />} />
+            <Route exact path='/profile' render={ () => <Profile store={props.store} />} />
+            {/* <Route path='/profile/myNotes'  render={ () => <Profile />}/> */}
+            <Redirect from='/' to='/profile'/>
           </div>
         </div>
       </div>

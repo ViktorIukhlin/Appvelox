@@ -6,7 +6,7 @@ import style from './Profile.module.css'
 const Profile = (props) => {
   return (
     <div className={style.container}>
-      <Appointment />
+      <Appointment listOfRecords={props.store.getState().listOfRecords.listOfRecords} />
       <ElectronicCards /> 
     </div>
   )

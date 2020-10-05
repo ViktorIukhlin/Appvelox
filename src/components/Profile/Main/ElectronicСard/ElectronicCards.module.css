@@ -1,0 +1,99 @@
+.content{
+  background-color:#FCFCFC;
+}
+.content h2{
+  margin-left: 40px;
+  color: black;
+  font-size: 16px;
+  line-height: 19px;  
+}
+.electronicCard{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* BLOCK ACTIVE START */
+.box_active{
+  margin: 15px 16px 15px 20px ;
+  max-height: 183px;
+  max-width: 540px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 2px solid #50CAFF;
+  box-shadow: 0px 0px 5px #EBE7FF;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+.boxForSvg_active{
+  background: #50CAFF;
+  border-radius: 5px 0 0 5px;
+  padding: 67px 46px 66px 47px;
+  margin: -2px 0 -2px -2px;
+}
+.boxForSvg_active svg{
+  margin: 0 auto;
+}
+.boxText_active{
+  margin-left: 35px;
+  margin-right: 35px;
+  color: black;
+}
+.boxText_active ul{
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #50CAFF;
+}
+.boxText_active li{
+  padding-bottom: 7px;
+}
+.boxText_active span{
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+}
+.heading_active{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-bottom: 9px;
+  font-size: 28px;
+  line-height: 33px;
+  border-bottom: 2px solid #50CAFF;
+}
+/* BLOCK ACTIVE END */
+
+/* BLOCK START */
+.box{
+  margin: 15px 16px 15px 20px ;
+  max-height: 183px;
+  max-width: 540px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px #EBE7FF;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+.boxForSvg{
+  padding: 67px 42px 66px 41px;
+  margin: -2px 0 -2px 0;
+}
+.boxForSvg svg{
+  margin: 0 auto;
+}
+.boxText{
+  margin: 36px 36px 0 36px;
+  color: black;
+}
+.boxText p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.heading{
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  font-size: 28px;
+  line-height: 33px;
+  border-bottom: 2px solid #EBE7FF;
+}
+/* BLOCK END */

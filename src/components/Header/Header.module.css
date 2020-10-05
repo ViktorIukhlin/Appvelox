@@ -1,17 +1,28 @@
 .block{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #50CAFF;
   height: 55px;
+  padding: 0 40px 0 40px;
 }
 .block h2{
   font-size: 28px;
   line-height: 33px;
 }
-.block svg {
-  fill: red;
+.rightBlock{
+  display: flex;
+  align-items: center;
 }
-.border{
+.rightBlock svg:not(:last-child) {
+  margin-right: 20px;
+}
+
+.rightBlock svg:last-child {
+  margin-left: 7px;
+}
+
+.borderPhoto{
   display: flex;
   align-items: center;
   height: 49px;

@@ -13,14 +13,12 @@
   padding-top: 20px;
 }
 .topBlock h3{
-  color: black;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 5px;
 }
 .topBlock p{
-  color: black;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -46,7 +44,6 @@
   justify-content: center;
 }
 .boxName{
-  color: black;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;

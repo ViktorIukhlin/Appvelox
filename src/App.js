@@ -4,6 +4,7 @@ import { Route, HashRouter, Redirect } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
+import MyNotes from './components/Profile/MyNotes/MyNotes';
 
 const App = (props) => {
   return (
@@ -16,7 +17,7 @@ const App = (props) => {
           <Header />
           <div>
             <Route exact path='/profile' render={ () => <Profile store={props.store} />} />
-            {/* <Route path='/profile/myNotes'  render={ () => <Profile />}/> */}
+            <Route path='/profile/myNotes'  render={ () => <MyNotes store={props.store}/>}/>
             <Redirect from='/' to='/profile'/>
           </div>
         </div>

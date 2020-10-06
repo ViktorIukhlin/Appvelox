@@ -1,4 +1,15 @@
-.toBack{
-  color: black;
+.container{
+  background-color: #FCFCFC ;
 }
+.toBack{
+  display: flex;
+  align-items: center;
+  color: black;
+  margin: 15px 0 13px 40px;
+}
+.toBack svg{
+  transform: translate(0, 2px);
+  margin-right: 14px;
+}
+ 
  

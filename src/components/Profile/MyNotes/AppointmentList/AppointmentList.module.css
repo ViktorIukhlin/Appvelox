@@ -1,3 +1,25 @@
 .container {
-  
+  max-height: 600px;
+  max-width: 600px;
+  overflow: auto;
 }
+.container::-webkit-scrollbar-track
+{
+	border-radius: 4px;
+	background-color: #EBE7FF;
+}
+.container::-webkit-scrollbar
+{
+	width: 8px;
+}
+.container::-webkit-scrollbar-thumb
+{
+  background-color: #003B72;
+  border-radius: 4px;
+}
+
+
+
+
+
+ 

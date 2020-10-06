@@ -24,7 +24,7 @@ const Appointment = ({listOfRecords}) => {
         {AppointmentCards[1]}
         <div className={style.textBox}>
           <div className={style.text}>Еще {count} записи</div>
-          <NavLink to="/profile/myNotes" className={style.textLink}>Подробнее</NavLink>
+          <NavLink to="/profile/myNotes" className={style.textLink} >Подробнее</NavLink>
         </div>
       </div>
     </div>

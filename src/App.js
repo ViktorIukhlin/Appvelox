@@ -18,7 +18,7 @@ const App = (props) => {
           <div>
             <Route exact path='/profile' render={ () => <Profile store={props.store} />} />
             <Route path='/profile/myNotes'  render={ () => <MyNotes store={props.store}/>}/>
-            <Redirect from='/' to='/profile'/>
+            <Redirect from='/' to='/profile/myNotes'/>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .container {
-  max-height: 600px;
+  max-height: 84vh;
   max-width: 600px;
   overflow: auto;
 }

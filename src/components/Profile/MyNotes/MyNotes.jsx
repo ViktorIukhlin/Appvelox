@@ -16,7 +16,7 @@ const MyNotes = (props) => {
         </NavLink>
         <div>Мои записи</div>
       </div>
-      <div>
+      <div className={style.content}>
         <AppointmentList listOfRecords={props.store.getState().listOfRecords.listOfRecords} />
         <Calendar />
       </div>

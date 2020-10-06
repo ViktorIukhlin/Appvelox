@@ -1,6 +1,6 @@
 .container {
   max-height: 84vh;
-  max-width: 600px;
+  min-width: 525px;
   overflow: auto;
 }
 .container::-webkit-scrollbar-track

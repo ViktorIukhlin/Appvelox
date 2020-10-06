@@ -1,12 +1,14 @@
 import React from 'react';
-import style from './Calendar.module.css'
+import style from './Calendar.module.css';
 
-const Calendar = () => {
+
+const CalendarRender = () => {
+
   return (
-    <div className={style.container}>
-      Календарь
+    <div>
+
     </div>
-  )
+  );
 }
 
-export default Calendar;
+export default CalendarRender;

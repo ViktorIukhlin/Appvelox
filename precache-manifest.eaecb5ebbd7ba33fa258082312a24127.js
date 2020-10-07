@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80370afefde42221ad6c6bb8c07475dd",
+    "revision": "551fbc1426b2de06fd6c9d318fdbeef9",
     "url": "/ViktorIukhlin/Appvelox/index.html"
   },
   {
-    "revision": "894c72feea43c83898c4",
+    "revision": "8ebfb37fd6202ee55257",
     "url": "/ViktorIukhlin/Appvelox/static/css/main.74250dd1.chunk.css"
   },
   {
-    "revision": "9d4677550ea5686ac014",
-    "url": "/ViktorIukhlin/Appvelox/static/js/2.c5c2df2b.chunk.js"
+    "revision": "4bbdbd4059869ee88de4",
+    "url": "/ViktorIukhlin/Appvelox/static/js/2.59a2a718.chunk.js"
   },
   {
     "revision": "cf0565a1cf8a621bfb906afd263c3a1b",
-    "url": "/ViktorIukhlin/Appvelox/static/js/2.c5c2df2b.chunk.js.LICENSE.txt"
+    "url": "/ViktorIukhlin/Appvelox/static/js/2.59a2a718.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "894c72feea43c83898c4",
-    "url": "/ViktorIukhlin/Appvelox/static/js/main.4fa0221d.chunk.js"
+    "revision": "8ebfb37fd6202ee55257",
+    "url": "/ViktorIukhlin/Appvelox/static/js/main.8d286d5b.chunk.js"
   },
   {
     "revision": "9fa9677c29af7fad9de0",

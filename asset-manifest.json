@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ViktorIukhlin/Appvelox/static/css/main.74250dd1.chunk.css",
-    "main.js": "/ViktorIukhlin/Appvelox/static/js/main.4fa0221d.chunk.js",
-    "main.js.map": "/ViktorIukhlin/Appvelox/static/js/main.4fa0221d.chunk.js.map",
+    "main.js": "/ViktorIukhlin/Appvelox/static/js/main.8d286d5b.chunk.js",
+    "main.js.map": "/ViktorIukhlin/Appvelox/static/js/main.8d286d5b.chunk.js.map",
     "runtime-main.js": "/ViktorIukhlin/Appvelox/static/js/runtime-main.d582fb52.js",
     "runtime-main.js.map": "/ViktorIukhlin/Appvelox/static/js/runtime-main.d582fb52.js.map",
-    "static/js/2.c5c2df2b.chunk.js": "/ViktorIukhlin/Appvelox/static/js/2.c5c2df2b.chunk.js",
-    "static/js/2.c5c2df2b.chunk.js.map": "/ViktorIukhlin/Appvelox/static/js/2.c5c2df2b.chunk.js.map",
+    "static/js/2.59a2a718.chunk.js": "/ViktorIukhlin/Appvelox/static/js/2.59a2a718.chunk.js",
+    "static/js/2.59a2a718.chunk.js.map": "/ViktorIukhlin/Appvelox/static/js/2.59a2a718.chunk.js.map",
     "index.html": "/ViktorIukhlin/Appvelox/index.html",
-    "precache-manifest.62d46c755f7fb8d5a798a8a6f9e556ea.js": "/ViktorIukhlin/Appvelox/precache-manifest.62d46c755f7fb8d5a798a8a6f9e556ea.js",
+    "precache-manifest.eaecb5ebbd7ba33fa258082312a24127.js": "/ViktorIukhlin/Appvelox/precache-manifest.eaecb5ebbd7ba33fa258082312a24127.js",
     "service-worker.js": "/ViktorIukhlin/Appvelox/service-worker.js",
     "static/css/main.74250dd1.chunk.css.map": "/ViktorIukhlin/Appvelox/static/css/main.74250dd1.chunk.css.map",
-    "static/js/2.c5c2df2b.chunk.js.LICENSE.txt": "/ViktorIukhlin/Appvelox/static/js/2.c5c2df2b.chunk.js.LICENSE.txt",
+    "static/js/2.59a2a718.chunk.js.LICENSE.txt": "/ViktorIukhlin/Appvelox/static/js/2.59a2a718.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/ViktorIukhlin/Appvelox/static/media/avatar.f2dfdb83.jpg",
     "static/media/harkov.jpg": "/ViktorIukhlin/Appvelox/static/media/harkov.dc59b67b.jpg",
     "static/media/malushko.jpg": "/ViktorIukhlin/Appvelox/static/media/malushko.7954a1b7.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d582fb52.js",
-    "static/js/2.c5c2df2b.chunk.js",
+    "static/js/2.59a2a718.chunk.js",
     "static/css/main.74250dd1.chunk.css",
-    "static/js/main.4fa0221d.chunk.js"
+    "static/js/main.8d286d5b.chunk.js"
   ]
 }

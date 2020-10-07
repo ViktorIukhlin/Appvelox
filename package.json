@@ -2,6 +2,7 @@
   "name": "appvelox",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/ViktorIukhlin/Appvelox",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -12,6 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,6 +37,7 @@
   "devDependencies": {
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
+    "gh-pages": "^3.1.0",
     "moment": "^2.29.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",

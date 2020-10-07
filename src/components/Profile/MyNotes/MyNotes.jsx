@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import AppointmentList from './AppointmentList/AppointmentList';
 import Calendar from './Calendar/Calendar';
+import moment from 'moment/min/moment-with-locales';
 import style from './MyNotes.module.css'
 
 const MyNotes = (props) => {
-  debugger;
+  const [value, setValue] = useState(moment().locale('ru'));
   return (
     <div className={style.container}>
       <div className={style.toBack}>
@@ -18,7 +19,7 @@ const MyNotes = (props) => {
       </div>
       <div className={style.content}>
         <AppointmentList listOfRecords={props.store.getState().listOfRecords.listOfRecords} />
-        <Calendar />
+        <Calendar value={value} onChange={setValue}/>
       </div>
     </div>
   )

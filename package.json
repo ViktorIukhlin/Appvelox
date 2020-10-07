@@ -34,6 +34,7 @@
   "devDependencies": {
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
+    "moment": "^2.29.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5"

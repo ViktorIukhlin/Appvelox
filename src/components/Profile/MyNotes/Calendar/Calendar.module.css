@@ -19,6 +19,7 @@
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-transform: capitalize;
 }
 
@@ -30,15 +31,20 @@
 .calendar .body {
   margin-left: 10px;
 }
+.calendar .current {
+  width: 149px;
+  display: flex;
+  justify-content: center;
+}
 
 .calendar .header .previous { 
-  margin-left: 190px;
-  margin-right: 35px;
+  font-size: 25px;
+  font-weight: 1;
 }
 
 .calendar .header .next {
-  margin-left: 35px;
-  margin-right: 190px;
+  font-size: 25px;
+  font-weight: 1;
 }
 
 .calendar .week {

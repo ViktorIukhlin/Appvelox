@@ -1,4 +1,5 @@
 .container {
+  padding-top: 2px;
   max-height: 84vh;
   min-width: 525px;
   overflow: auto;
